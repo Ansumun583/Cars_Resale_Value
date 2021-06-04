@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SalKar</title>
     <!-- CSS only -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -19,9 +19,9 @@
   </nav>
  
     <div class="wrapper">
-        <div class="container" style="background-image: url('https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80');">
+        <div class="container" style="background-image: url('https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80');backdrop-filter: blur(8px);">
             <article class="part card-details">
-                <h1>
+                <h1 class="Brand">
                     Car Resale
                 </h1>
 
@@ -103,7 +103,8 @@
                 
                 </form>
                </div>
-               <h3>{{ prediction_text }}</h3>
+               <div class="well"> <h3>{{ prediction_text }}</h3></div>
+              
             </article>
             <div class="part bg"></div>
         </div>
