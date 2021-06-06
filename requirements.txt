@@ -47,7 +47,7 @@ packaging==20.9
 pandas==1.2.4
 pandocfilters==1.4.3
 parso==0.8.2
-pickle5 @ file:///D:/bld/pickle5_1592859470301/work
+pickle5
 pickleshare==0.7.5
 Pillow==8.2.0
 prometheus-client==0.11.0
