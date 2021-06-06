@@ -47,6 +47,7 @@ packaging==20.9
 pandas==1.2.4
 pandocfilters==1.4.3
 parso==0.8.2
+pickle5 @ file:///D:/bld/pickle5_1592859470301/work
 pickleshare==0.7.5
 Pillow==8.2.0
 prometheus-client==0.11.0
@@ -57,6 +58,7 @@ pyparsing==2.4.7
 pyrsistent==0.17.3
 python-dateutil==2.8.1
 pytz==2021.1
+pywin32==301
 pywinpty==1.1.1
 pyzmq==22.1.0
 qtconsole==5.1.0
